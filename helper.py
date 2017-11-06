@@ -67,6 +67,8 @@ def saveToCenter(i,rList,jList,bufferArray,summaryLength,h_size,sess,mainQN,time
     
 #This code allows gifs to be saved of the training episode for use in the Control Center.
 def make_gif(images, fname, duration=2, true_image=False,salience=False,salIMGS=None):
+  import imageio
+  imageio.plugins.ffmpeg.download()
   import moviepy.editor as mpy
   
   def make_frame(t):
