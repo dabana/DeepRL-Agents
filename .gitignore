@@ -1,3 +1,4 @@
 *.ckpt.*
 *.gif
 *.pyc
+*.csv

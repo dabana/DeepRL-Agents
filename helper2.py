@@ -7,7 +7,7 @@ import os
 import csv
 import itertools
 import tensorflow.contrib.slim as slim
-imageio.plugins.ffmpeg.download()
+#imageio.plugins.ffmpeg.download()
 
 # This is a simple function to reshape our game frames.
 def processState(state1):
